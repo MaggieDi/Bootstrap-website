@@ -1,0 +1,274 @@
+@media (max-width: 1080px){
+    .container-fluid{
+    	padding: 0px;
+    }
+
+}
+@media (max-width: 1080px){
+   .carousel-inner h1{ 
+   	 	
+    		font-size: 36px!important;
+    		}
+    .carousel-inner a{
+    		font-size: 28px!important;
+    	}
+	.carousel-inner img{
+		height: 500px!important;
+	}
+}
+@media (min-width:770px) and (max-width: 1200px){
+	#second .gifts-box .box h5{
+		font-size: 150%!important;
+		}
+	#second .gifts-box .box p{
+		font-size: 120%!important;
+	}
+	
+}
+@media (max-width: 769px){
+	div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li a{
+		border-bottom: 1px solid #3d3d3d;
+		display: block!important;
+		visibility: visible!important;
+}
+	}
+	div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li a#special{
+		background-color: #fff!important;
+		border: none!important;
+		display: block!important;
+		visibility: visible!important;
+	}
+}
+body{
+	margin: 0px!important;
+	padding: 0px!important;
+	background-color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+	height: 100%;
+}
+
+div.navbar.navbar-fixed-top {
+	background-color: #fff;
+	padding:1%;
+	box-shadow: 0px 0px 50px #000;
+
+}
+div.navbar.navbar-fixed-top a.navbar-brand {
+	height: 100%;
+	padding: 0px 15px 0px 15px!important;
+}
+div.navbar.navbar-fixed-top a.navbar-brand img{
+	height: 70px;
+}
+div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav{
+	text-align: right;
+	padding: 15px 0px 0px 0px;
+
+}
+div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li{
+	padding:0px 30px 0px 0px; 
+}
+div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li a{
+	color: #6b6b6b;
+	font-style: bold;
+	font-size: 150%;
+	
+}
+div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li a#special{
+	background-color: #E5B5BE;
+	border: 2px solid #26cbba;
+}
+div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li:hover{
+	text-decoration: none;
+}
+
+
+div.navbar.navbar-fixed-top div.container-fluid button.navbar-toggle{
+	float: right!important;
+	margin-top: 15px;
+
+}
+div.navbar.navbar-fixed-top div.container-fluid button.navbar-toggle:hover{
+	background: #26cbba;
+	-webkit-transition: background ease-out 400ms ;
+    -moz-transition: background ease-out 400ms;
+    -o-transition: background ease-out 400ms;
+    transition: background ease-out 400ms;
+}
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active{
+  opacity: 1;
+}
+
+
+div.carousel-inner div.item img{
+	margin-top: ;
+	height:auto;
+	width: 100%;
+}
+div.carousel-inner div.item  div.carousel-caption{
+	top: 50%;
+    bottom: auto;
+	
+}
+div.carousel-inner div.item  div.carousel-caption h1{
+   text-align: center;
+   font-size: 80px;
+   letter-spacing: 12px;	
+}
+div.carousel-inner div.item div.carousel-caption p a{
+  	text-decoration: none;
+   	font-size: 250%;
+    letter-spacing: 5px;
+    padding: 10px;
+	background-color:rgba(102, 102, 102, 0.28); 
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+	div.carousel-inner div.item div.carousel-caption p a:hover{
+	padding: 10px;
+	background-color:#26cbba;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background ease-out 400ms ;
+    -moz-transition: background ease-out 400ms;
+    -o-transition: background ease-out 400ms;
+    transition: background ease-out 400ms;
+
+}
+
+#second {
+	margin-top:5px; 
+	background-color: #DCE4E3;
+}
+#second .gifts-box{
+	
+	margin: 40px 0px 40px 0px;
+	padding: 40px 0px 40px 0px;
+}
+#second .gifts-box .box{
+	margin: 5px;
+	border: 2px dashed #26cbba;
+	text-align: center;
+	box-sizing: border-box;
+	height: 145px;
+	
+
+}
+#second .gifts-box .box:hover{
+	background-color: #9acdc4;
+	box-shadow: 0px 0px 15px #000;
+	-webkit-transition: background linear 500ms ;
+    -moz-transition: background linear 500ms;
+    -o-transition: background linear 500ms;
+    transition: background linear 500ms;
+
+    -webkit-transition:  box-shadow linear 500ms ;
+    -moz-transition:  box-shadow linear 500ms;
+    -o-transition: box-shadow  linear 500ms;
+    transition: box-shadow  linear 500ms;
+
+
+
+	
+}
+#second .gifts-box .box h5{
+	font-size: 200%;
+	font-weight: bolder;
+	color: #6b6b6b;
+	padding: 5px;
+}
+#second .gifts-box .box p{
+	font-size: 150%;
+	font-style: italic;
+	color: #6b6b6b;
+	padding: 10px;
+}
+#second .gifts-box .box a{
+	padding: 0px 0px 10px 0px;
+	font-size: 100%;
+}
+#third{
+	margin-top:5px; 
+	background-color: rgba(229, 181, 190,0.5);
+}
+
+#third .proposed a.thumbnail img{
+	width: 400%;
+	height: 320%;
+}
+#third .proposed{
+	margin: 50px 0px 50px 0px;
+}
+#third .proposed a.thumbnail{
+	overflow: hidden; 
+	border:1px solid #6b6b6b;
+}
+.img-transform{
+	-webkit-transition: all 500ms ease-in-out;
+    -webkit-transform: scale(1.2); 
+    -ms-transition: all 500ms ease-in-out;
+    -ms-transform: scale(1.2); 
+    -moz-transition: all 500ms ease-in-out;
+    -moz-transform: scale(1.2);
+    transition: all 500ms ease-in-out;
+    transform: scale(1.2); 
+     
+}
+
+
+#footer{
+	background-color:#6b6b6b;
+}
+
+#footer ul.footer-links  li{
+	list-style-type: none;
+	
+}
+#footer ul.footer-links li  a{
+	text-decoration: none!important;
+	color: #fff!important;
+	
+}
+#footer  .footer-bottom div.pull-left{
+	padding:15px; 
+
+}
+#footer  .footer-bottom div.pull-left{
+	padding:10px; 
+
+}
+#footer  .footer-bottom.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ #footer  .footer-bottom.social {
+     -webkit-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+ 
+#footer  .footer-bottom #social-fb:hover {
+     color: #3B5998;
+ }
+#footer  .footer-bottom #social-tw:hover {
+     color: #4099FF;
+ }
+#footer .footer-bottom #social-gp:hover {
+     color: #d34836;
+ }
