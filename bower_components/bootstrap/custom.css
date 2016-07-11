@@ -31,12 +31,10 @@
 		display: block!important;
 		visibility: visible!important;
 }
-	}
+	
 	div.navbar.navbar-fixed-top div.container-fluid ul.nav.navbar-nav li a#special{
 		background-color: #fff!important;
 		border: none!important;
-		display: block!important;
-		visibility: visible!important;
 	}
 }
 body{
