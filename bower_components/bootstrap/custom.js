@@ -5,8 +5,5 @@ $(document).ready(function(){
             $(".img-proposed").mouseleave(function(){
                 $(this).toggleClass("img-transform");
             });
- $('.navbar-toggle').click(function(){
-  	$('ul.nav.navbar-nav').toggleClass('responsive');
-
-  });
+ 
 });
